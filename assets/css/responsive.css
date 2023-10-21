@@ -1,0 +1,61 @@
+/* Mobile */
+@media screen and (max-width: 740px) {
+  #nav > li {
+      display: block;
+  }   
+
+  #nav {
+      display: block;
+      /* Make the navigation vertical for small screens */
+  }
+
+  #header .search-btn {
+      display: none;
+  }
+
+  #slider .text-content {
+      bottom: 20px;
+  }
+
+  .member-list {
+      display: flex;
+      flex-wrap: wrap;
+  }
+
+  .member-list .col {
+      width: 100%;
+  }
+
+  .ticket-list li {
+      padding: 11px 0;
+      text-align: center;
+  }
+
+  .place-list .col {
+      width: 100%;
+      margin-bottom: 24px;
+  }
+
+  .contact-content {
+      flex-direction: column;
+  }
+
+  .contact-info {
+      margin-bottom: 20px;
+      text-align: center;
+  }
+
+  .contact-form .form-control {
+      width: 100%;
+  }
+}
+
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1024px) {
+  /* Add specific styles for tablets here */
+}
+
+/* PC (Desktop) */
+@media screen and (min-width: 1025px) {
+  /* Add specific styles for desktop screens here */
+}
