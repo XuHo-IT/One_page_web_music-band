@@ -192,7 +192,7 @@ html {
     margin-top: 46px;
     /* 50% chiều ngang của chính nó */
     padding-top: 50%; 
-  background:url('/Bigbang/assets/img/Bigbang.jpg') top center / cover no-repeat;
+  background:url('/assets/img/Bigbang.jpg') top center / cover no-repeat;
 }
 
 #slider .text-content{
